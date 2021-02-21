@@ -14,11 +14,7 @@ const DonnerList = ({data}) => {
                 <Text note numberOfLines={1}>Blood Group: {data.bloodgroup}</Text>
                 <Text note numberOfLines={1}>Contact No: {data.number}</Text>
             </Body>
-            <Right>
-                <Button transparent>
-                <Text>View</Text>
-                </Button>
-            </Right>
+            
         </ListItem>
         
     )

@@ -6,7 +6,7 @@ import { Footer, FooterTab, Button, Text } from 'native-base';
 const MainFooter = ({navigate}) => {
     return (
         <Footer>
-          <FooterTab style={{backgroundColor: '#8e0808'}}>
+          <FooterTab style={{backgroundColor: 'gray'}}>
             <Button onPress={()=>{
                 navigate.navigate('Home')
             }}>
@@ -15,7 +15,7 @@ const MainFooter = ({navigate}) => {
             <Button onPress={()=>{
                 navigate.navigate('Doner')
             }}>
-              <Text style={{color: 'white', fontSize: 15, fontWeight: 'bold'}}>Find Doner</Text>
+              <Text style={{color: 'white', fontSize: 15, fontWeight: 'bold'}}>Doners</Text>
             </Button>
           </FooterTab>
         </Footer>

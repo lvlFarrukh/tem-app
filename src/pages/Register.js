@@ -90,7 +90,7 @@ const Register = (props) => {
                 <View style={styles.loginFields}>
                     <Form>
                         <View style={{margin: 0}}>
-                            <Text style={{alignSelf: 'center',fontSize: 30, marginTop: 10, fontWeight: 'bold'}}>Personal Information</Text>
+                            <Text style={{alignSelf: 'center',fontSize: 30, marginTop: 10, fontWeight: 'bold'}}>REGISTRATION</Text>
                         </View>
 
                         <Item regular
@@ -117,7 +117,7 @@ const Register = (props) => {
                             />
                         </Item>
 
-                        <Item floatingLabel 
+                        <Item regular 
                             style={styles.extraField}
                         >
                             <Label>Password</Label>
@@ -129,7 +129,7 @@ const Register = (props) => {
                         </Item>
 
 
-                        <Item floatingLabel
+                        <Item regular
                             style={styles.extraField}
                         >
                             <Label>City</Label>
@@ -140,7 +140,7 @@ const Register = (props) => {
                                 autoCompleteType={'off'}/>
                         </Item>
 
-                        <Item floatingLabel
+                        <Item regular
                             style={styles.extraField}
                         >
                             <Label>Town</Label>
@@ -151,7 +151,7 @@ const Register = (props) => {
                                 autoCompleteType={'off'}/>
                         </Item>
 
-                        <Item floatingLabel
+                        <Item regular
                             style={styles.extraField}
                         >
                             <Label>Phone Number</Label>
@@ -161,10 +161,6 @@ const Register = (props) => {
                                 }}
                                 keyboardType={'number-pad'}/>
                         </Item>
-
-                        <View style={{margin: 20}}>
-                            <Text style={{alignSelf: 'center',fontSize: 30, marginTop: 10, fontWeight: 'bold'}}>Medical Information</Text>
-                        </View>
 
                         <Text style={{fontWeight: 'bold',marginLeft: 20}}>Blood Group</Text>
                         <DropDownPicker
@@ -225,7 +221,7 @@ const Register = (props) => {
                             onChangeItem={item => setDiebetes(item.value)}
                         /> 
 
-                        <Item floatingLabel
+                        <Item regular
                             style={styles.extraField}
                         >
                             <Label>Any other Disease</Label>
@@ -248,11 +244,6 @@ const Register = (props) => {
                                     </Text>
                             </TouchableOpacity>
                         }       
-
-                        {spBtn === 1 &&
-                            <Spinner color='gray' />
-                        }
-                        
                         
                     </Form>
                 </View>

@@ -34,7 +34,7 @@ const DonerPage = (props) => {
 
             <MainHeader title={'Doner'} mainIcon={'person'} />
 
-                    <H3 style={{alignSelf: 'center', fontWeight: 'bold', margin: 20}}>Select Blood Group</H3>
+                    <H3 style={{alignSelf: 'center', fontWeight: 'bold', margin: 20}}>Select Recever Blood Group</H3>
 
                     <DropDownPicker
                         placeholder={'Select'}

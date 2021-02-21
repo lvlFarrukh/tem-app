@@ -26,11 +26,7 @@ const Home = (props) => {
         <Card style={{width: 330, alignSelf: 'center', marginTop: 15}}>
             <CardItem>
               <Body>
-                <H2 style={{marginBottom: 5, color: 'green', fontWeight: 'bold'}}>Latest Donation</H2>
-                <H3 style={{marginBottom: 5, color: 'green'}}>Recever Data:</H3>
-                <Text>Name: </Text>
-                <Text>Blood Group: </Text>
-                <Text>Date: </Text>
+                <H2 style={{marginBottom: 5, color: 'green', fontWeight: 'bold'}}>Coming Soon</H2>
               </Body>
             </CardItem>
         </Card>

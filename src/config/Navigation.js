@@ -24,16 +24,6 @@ function Navigation() {
             component={Login} 
             options={{
               headerShown: false,
-              // title: 'Home',
-              // headerStyle: {
-              //   backgroundColor: '#002B5F',
-              // },
-              // headerTintColor: 'white',
-              // headerTitleStyle: {
-              //   fontWeight: 'bold',
-              //   alignSelf: 'center',
-              //   fontSize: 25
-              // },
             }}
           />
 
